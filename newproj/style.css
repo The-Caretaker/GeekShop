@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+
+  background-color: #ccc;
+  @media (max-width: 1000px){
+
+  }
+  @media (max-width: 500px) {
+    .ro{
+      width: 50%;
+      min-width: 300px;
+      justify-content: center;
+      align-items: center;
+      padding-left: 15px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+}
+.Site{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.navbar-brand {
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.nav-item {
+	margin-top: 4px;
+	padding: 5px;
+	margin-left: 15px;
+	text-align: center;
+	align-content: center;
+}
+
+.nav-item {
+	margin: 0;
+	padding: 0;
+}
+
+.nav_2 {
+    height: 3.6em;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    display: inline-block;
+}
+.normnazv{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.rei{
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 10%;
+  box-shadow: 0 5px 10px #ccc;
+}
+.photo{
+  width: 50%;
+  padding: 30px;
+  min-width: 376px;
+}
+.ro{
+  width: 50%;
+  min-width: 300px;
+  vertical-align: middle;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.name{
+  max-width: 500px;
+  font-size: 25px;
+}
+
+.desc1{
+  font-size: 20px;
+  max-width: 500 px;
+}
+.cost{
+  font-size: 60px;
+  max-width: 500 px;
+}
+.add-to-cart {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.check{
+  margin: 0 auto;
+}
+footer{
+
+  	margin-top: 20px;
+  }
+}
